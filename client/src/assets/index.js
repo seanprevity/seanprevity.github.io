@@ -40,7 +40,8 @@ import coverhunt from './company/coverhunt.png';
 import pegpark from './projects/PegasusParking.png';
 import eventmanager from './projects/eventmanager.png';
 import soon from './projects/soon.jpg';
-import francetravel from './projects/francetravel.png';
+import babble from './projects/babble.png'
+import francetravel from './projects/france_new.png';
 import EPLimage from './projects/EPL.png';
 import EPLimage2 from './projects/EPL2.png';
 
@@ -79,6 +80,7 @@ export {
   typescript,
   pegpark,
   soon,
+  babble,
   coverhunt,
   ucf,
   eventmanager,

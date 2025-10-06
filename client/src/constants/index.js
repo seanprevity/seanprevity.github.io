@@ -18,6 +18,7 @@ import {
   francetravel,
   EPLimage,
   EPLimage2,
+  babble,
 } from '../assets';
 
 export const navLinks = [
@@ -207,9 +208,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: soon,
+    image: babble,
     repo: 'https://github.com/seanprevity',
-    demo: 'https://github.com/seanprevity',
+    demo: 'https://drive.google.com/file/d/1sJXnu_nxVZQMgUMSfF954oOAMUJ1fU5_/view?usp=sharing',
   },
 ];
 
