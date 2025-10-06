@@ -192,7 +192,7 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Babel (Soon)',
+    name: 'Babble',
     description: 'React application that leverages open-source AI to translate text and documents.',
     tags: [
       {
