@@ -166,7 +166,7 @@ const projects = [
     ],
     image: francetravel,
     repo: 'https://github.com/seanprevity/France-Explorer',
-    demo: 'https://explorefrance.vercel.app/',
+    demo: 'https://drive.google.com/file/d/1F-XfR-t2x-RpX057bvI7-Tdh9XycyOyi/view?usp=sharing',
   },
   {
     id: 'project-4',

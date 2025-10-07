@@ -41,7 +41,7 @@ import pegpark from './projects/PegasusParking.png';
 import eventmanager from './projects/eventmanager.png';
 import soon from './projects/soon.jpg';
 import babble from './projects/babble_2.png'
-import francetravel from './projects/france_new_4.png';
+import francetravel from './projects/france_new_5.png';
 import EPLimage from './projects/EPL.png';
 import EPLimage2 from './projects/EPL2.png';
 
