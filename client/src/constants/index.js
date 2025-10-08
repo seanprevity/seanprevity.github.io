@@ -148,7 +148,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'France Explorer',
+    name: 'Explore France',
     description: 'An app that allows you to explore every french city in French or English.',
     tags: [
       {
@@ -165,7 +165,7 @@ const projects = [
       },
     ],
     image: francetravel,
-    repo: 'https://github.com/seanprevity/France-Explorer',
+    repo: 'https://github.com/seanprevity/france-travel-helper',
     demo: 'https://drive.google.com/file/d/1F-XfR-t2x-RpX057bvI7-Tdh9XycyOyi/view?usp=sharing',
   },
   {
