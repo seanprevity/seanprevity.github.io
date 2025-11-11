@@ -170,8 +170,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'EU Football Stats Tracker',
-    description: 'A website that tracks standings, team stats and odds for the top 5 European Football League matches.',
+    name: 'European Football',
+    description: 'A website that tracks standings, team stats and odds for the top 5 European Football Leagues matches.',
     tags: [
       {
         name: 'react',
