@@ -166,12 +166,12 @@ const projects = [
     ],
     image: francetravel,
     repo: 'https://github.com/seanprevity/france-travel-helper',
-    demo: 'https://drive.google.com/file/d/1F-XfR-t2x-RpX057bvI7-Tdh9XycyOyi/view?usp=sharing',
+    demo: 'https://drive.google.com/file/d/1ob16fh3v_XtccGWU5MAkl-xiThtY_URc/view?usp=sharing',
   },
   {
     id: 'project-4',
-    name: 'EPL Stats Tracker',
-    description: 'A website that tracks H2H records, team stats and odds for English Premiere League matches.',
+    name: 'EU Football Stats Tracker',
+    description: 'A website that tracks standings, team stats and odds for the top 5 European Football League matches.',
     tags: [
       {
         name: 'react',
