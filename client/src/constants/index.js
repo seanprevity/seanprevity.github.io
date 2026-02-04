@@ -19,6 +19,7 @@ import {
   EPLimage,
   EPLimage2,
   babble,
+  EPLimage3,
 } from '../assets';
 
 export const navLinks = [
@@ -186,7 +187,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: EPLimage,
+    image: EPLimage3,
     repo: 'https://github.com/seanprevity/EPL-Stats',
     demo: 'https://drive.google.com/file/d/1DFI7yKLfF_S476kxrItgLvkpiOpfdT25/view?usp=drive_link',
   },
