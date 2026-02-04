@@ -173,9 +173,9 @@ const projects = [
   },
   {
     id: "project-4",
-    name: "European Football",
+    name: "EU Football",
     description:
-      "A website that tracks standings, team stats and odds for the top 5 European Football Leagues matches.",
+      "An app that tracks standings, stats and matches for the top 5 European Football Leagues.",
     tags: [
       {
         name: "react",
