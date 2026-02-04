@@ -38,8 +38,8 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
         I specialize in Software Development for web applications and AI DevOps.
-        I am currently pursuing a Bachelor of Science Degree in Computer Science at the University of Central Florida. 
-        I’m passionate about artificial intelligence and software development, and I’m eager to turn my curiosity into real-world tools and applications that make an impact.
+        I am currently pursuing a MS in Computer Science at the University of Central Florida. 
+        I'm passionate about artificial intelligence and software development, and I'm eager to turn my curiosity into real-world tools and applications that make an impact.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
