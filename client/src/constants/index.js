@@ -20,6 +20,7 @@ import {
   EPLimage2,
   babble,
   EPLimage3,
+  yourok,
 } from "../assets";
 
 export const navLinks = [
@@ -97,7 +98,14 @@ const experiences = [
     company_name: "Outlier",
     icon: coverhunt,
     iconBg: "#333333",
-    date: "Apr 2025 - Present",
+    date: "Apr 2025 - Dec 2025",
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "YouROK",
+    icon: yourok,
+    iconBg: "#333333",
+    date: "Feb 2026 - May 2026"
   },
 ];
 

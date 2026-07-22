@@ -36,6 +36,7 @@ import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
 
 import coverhunt from "./company/coverhunt.png";
+import yourok from "./company/yourok.png";
 
 import pegpark from "./projects/PegasusParking.png";
 import eventmanager from "./projects/eventmanager.png";
@@ -89,4 +90,5 @@ export {
   EPLimage,
   EPLimage2,
   EPLimage3,
+  yourok,
 };
