@@ -6,9 +6,7 @@ import worldmap from "./backgrounds/world-map.png";
 import ucf from "./logo/ucf.png";
 
 import backend from "./icons/backend.png";
-import ux from "./icons/ux.png";
 import frontend from "./icons/frontend.png";
-import prototyping from "./icons/prototyping.png";
 import github from "./icons/github.png";
 import close from "./icons/close.png";
 import download from "./icons/download.png";
@@ -19,21 +17,20 @@ import menu from "./icons/menu.png";
 import resume from "./icons/resume.png";
 import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
+import database from "./icons/database.png";
+import cybersecurity from "./icons/cybersecurity.png";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import graphql from "./tech/graphql.png";
-import postgresql from "./tech/postgresql.png";
-import rubyrails from "./tech/rubyrails.png";
+import docker from "./tech/docker.svg";
+import nodejs from "./tech/nodejs.svg";
+import reactjs from "./tech/react.svg";
+import typescript from "./tech/typescript.svg";
+import postgresql from "./tech/postgresql.svg";
+import aws from "./tech/aws.svg";
+import linux from "./tech/linux.svg";
+import mongodb from "./tech/mongodb.svg";
+import githubactions from "./tech/githubactions.svg";
+import supabase from "./tech/supabase.svg";
+import java from "./tech/java.svg";
 
 import coverhunt from "./company/coverhunt.png";
 import yourok from "./company/yourok.png";
@@ -41,11 +38,9 @@ import yourok from "./company/yourok.png";
 import pegpark from "./projects/PegasusParking.png";
 import eventmanager from "./projects/eventmanager.png";
 import soon from "./projects/soon.jpg";
-import babble from "./projects/babble_2.png";
-import francetravel from "./projects/france_new_5.png";
-import EPLimage from "./projects/EPL.png";
-import EPLimage2 from "./projects/EPL2.png";
-import EPLimage3 from "./projects/EPL3.png";
+import babble from "./projects/babble.png";
+import francetravel from "./projects/francetravel.png";
+import EPLimage4 from "./projects/EPL.png";
 
 export {
   bwmap,
@@ -53,9 +48,7 @@ export {
   whiteabstract,
   worldmap,
   backend,
-  ux,
   frontend,
-  prototyping,
   github,
   close,
   download,
@@ -66,19 +59,10 @@ export {
   resume,
   send,
   sendHover,
-  css,
   docker,
-  figma,
-  git,
-  graphql,
-  html,
-  javascript,
   nodejs,
   postgresql,
-  rubyrails,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   pegpark,
   soon,
@@ -87,8 +71,14 @@ export {
   ucf,
   eventmanager,
   francetravel,
-  EPLimage,
-  EPLimage2,
-  EPLimage3,
   yourok,
+  database,
+  cybersecurity,
+  EPLimage4,
+  aws,
+  githubactions,
+  linux,
+  mongodb,
+  supabase,
+  java,
 };

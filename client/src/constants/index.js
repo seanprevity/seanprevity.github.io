@@ -1,26 +1,26 @@
 import {
   frontend,
   backend,
-  ux,
-  prototyping,
-  javascript,
   typescript,
-  html,
   reactjs,
   nodejs,
-  git,
   docker,
   postgresql,
   pegpark,
   coverhunt,
-  soon,
   eventmanager,
   francetravel,
-  EPLimage,
-  EPLimage2,
   babble,
-  EPLimage3,
   yourok,
+  database,
+  cybersecurity,
+  EPLimage4,
+  supabase,
+  aws,
+  linux,
+  githubactions,
+  mongodb,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -48,27 +48,19 @@ const services = [
     icon: backend,
   },
   {
-    title: "AI Developer",
-    icon: ux,
+    title: "Data Engineering",
+    icon: database,
   },
   {
-    title: "Software Prototyping",
-    icon: prototyping,
+    title: "Cybersecurity & Research",
+    icon: cybersecurity,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML",
-    icon: html,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "React JS",
@@ -79,16 +71,36 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "postgresql",
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "PostgreSQL",
     icon: postgresql,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Supabase",
+    icon: supabase,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "GitHub Actions",
+    icon: githubactions,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
@@ -105,7 +117,7 @@ const experiences = [
     company_name: "YouROK",
     icon: yourok,
     iconBg: "#333333",
-    date: "Feb 2026 - May 2026"
+    date: "Feb 2026 - May 2026",
   },
 ];
 
@@ -198,7 +210,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: EPLimage3,
+    image: EPLimage4,
     repo: "https://github.com/seanprevity/EPL-Stats",
     demo: "https://drive.google.com/file/d/1YK7AFNpGvWt987sHz9OmKpPJK99Xi8nu/view?usp=sharing",
   },
