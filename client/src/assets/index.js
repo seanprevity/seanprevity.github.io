@@ -36,11 +36,10 @@ import coverhunt from "./company/coverhunt.png";
 import yourok from "./company/yourok.png";
 
 import pegpark from "./projects/PegasusParking.png";
-import eventmanager from "./projects/eventmanager.png";
 import soon from "./projects/soon.jpg";
 import babble from "./projects/babble.png";
 import francetravel from "./projects/francetravel.png";
-import EPLimage4 from "./projects/EPL.png";
+import EPL from "./projects/EPL2.png";
 
 export {
   bwmap,
@@ -69,12 +68,11 @@ export {
   babble,
   coverhunt,
   ucf,
-  eventmanager,
   francetravel,
   yourok,
   database,
   cybersecurity,
-  EPLimage4,
+  EPL,
   aws,
   githubactions,
   linux,

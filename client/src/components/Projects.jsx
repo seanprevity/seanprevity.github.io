@@ -49,7 +49,7 @@ const ProjectCard = ({
         <>
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
+            flex-col bg-[rgba(122,122,122,0.4)] rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-end m-3">
               <div
                 onClick={() => window.open(repo, '_blank')}

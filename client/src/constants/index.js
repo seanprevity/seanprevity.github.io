@@ -8,13 +8,12 @@ import {
   postgresql,
   pegpark,
   coverhunt,
-  eventmanager,
   francetravel,
   babble,
   yourok,
   database,
   cybersecurity,
-  EPLimage4,
+  EPL,
   supabase,
   aws,
   linux,
@@ -124,32 +123,9 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
-    name: "Event Manager",
-    description:
-      "An event manager app used to set up university events and create Registered Student Organizations (RSO).",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: eventmanager,
-    repo: "https://github.com/seanprevity/Event-Manager",
-    demo: "https://github.com/seanprevity/Event-Manager",
-  },
-  {
-    id: "project-2",
     name: "Pegasus Parking",
     description:
-      "An app that shows you the closest parking location on UCF based on your destination and permits.",
+      "Finds the closest available UCF parking locations based on your destination and parking permit.",
     tags: [
       {
         name: "react",
@@ -169,10 +145,33 @@ const projects = [
     demo: "https://drive.google.com/file/d/1vXKBOCBq1IBONN2DMke0NKK5voBxYzjZ/view?usp=drive_link",
   },
   {
+    id: "project-2",
+    name: "EU Football",
+    description:
+      "Tracks standings, match results, and player statistics across Europe's top five football leagues.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: EPL,
+    repo: "https://github.com/seanprevity/EPL-Stats",
+    demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
+  },
+  {
     id: "project-3",
     name: "Explore France",
     description:
-      "An app that allows you to explore every french city in French or English.",
+      "Explore cities across France with information available in both English and French.",
     tags: [
       {
         name: "react",
@@ -193,32 +192,9 @@ const projects = [
   },
   {
     id: "project-4",
-    name: "EU Football",
-    description:
-      "An app that tracks standings, stats and matches for the top 5 European Football Leagues.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: EPLimage4,
-    repo: "https://github.com/seanprevity/EPL-Stats",
-    demo: "https://drive.google.com/file/d/1YK7AFNpGvWt987sHz9OmKpPJK99Xi8nu/view?usp=sharing",
-  },
-  {
-    id: "project-5",
     name: "Babble",
     description:
-      "React application that leverages open-source AI to translate text and documents.",
+      "Translates text and documents using open-source AI models in an interactive web application.",
     tags: [
       {
         name: "nextjs",
