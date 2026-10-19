@@ -40,6 +40,7 @@ import soon from "./projects/soon.jpg";
 import babble from "./projects/babble.png";
 import francetravel from "./projects/francetravel.png";
 import EPL from "./projects/EPL2.png";
+import movierecs from "./projects/movie-recs.png";
 
 export {
   bwmap,
@@ -79,4 +80,5 @@ export {
   mongodb,
   supabase,
   java,
+  movierecs,
 };

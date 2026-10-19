@@ -20,6 +20,7 @@ import {
   githubactions,
   mongodb,
   java,
+  movierecs,
 } from "../assets";
 
 export const navLinks = [
@@ -146,29 +147,6 @@ const projects = [
   },
   {
     id: "project-2",
-    name: "EU Football",
-    description:
-      "Tracks standings, match results, and player statistics across Europe's top five football leagues.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: EPL,
-    repo: "https://github.com/seanprevity/EPL-Stats",
-    demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
-  },
-  {
-    id: "project-3",
     name: "Explore France",
     description:
       "Explore cities across France with information available in both English and French.",
@@ -189,6 +167,29 @@ const projects = [
     image: francetravel,
     repo: "https://github.com/seanprevity/france-travel-helper",
     demo: "https://drive.google.com/file/d/1ob16fh3v_XtccGWU5MAkl-xiThtY_URc/view?usp=sharing",
+  },
+  {
+    id: "project-3",
+    name: "EU Football",
+    description:
+      "Tracks standings, match results, and player statistics across Europe's top five football leagues.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: EPL,
+    repo: "https://github.com/seanprevity/EPL-Stats",
+    demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
   },
   {
     id: "project-4",
@@ -212,6 +213,29 @@ const projects = [
     image: babble,
     repo: "https://github.com/seanprevity",
     demo: "https://drive.google.com/file/d/1sJXnu_nxVZQMgUMSfF954oOAMUJ1fU5_/view?usp=sharing",
+  },
+  {
+    id: "project-5",
+    name: "Movie Recs",
+    description:
+      "Recommends similar films and lets you browse 10,000+ movies by genre, decade, language, and more.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movierecs,
+    repo: "https://github.com/seanprevity/movie-recs",
+    demo: "https://drive.google.com/file/d/1PFMo24ALguDorXwu98f1lh9ukSbSXUxq/view?usp=sharing",
   },
 ];
 
