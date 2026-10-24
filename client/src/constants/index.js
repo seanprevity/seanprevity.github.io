@@ -118,6 +118,9 @@ const experiences = [
     icon: yourok,
     iconBg: "#333333",
     date: "Feb 2026 - May 2026",
+    points: [
+      "Rebuilt a legacy PHP backend as a Node.js and TypeScript service with GraphQL.",
+    ],
   },
 ];
 
