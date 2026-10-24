@@ -10,14 +10,7 @@ const ServiceCard = ({ index, title, icon }) => {
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
+      <div className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
         <h3 className="text-taupe text-[18px] font-bold text-center">
           {title}
@@ -31,20 +24,16 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>What I work on</p>
+        <h2 className={styles.sectionHeadText}>Focus Areas.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        I specialize in software engineering, with experience developing backend
-        systems and data-driven applications. I am currently pursuing an M.S. in
-        Computer Science at the University of Central Florida, focusing on
-        cybersecurity. I’m passionate about building reliable, scalable software
-        and expanding my knowledge of cybersecurity, particularly malware
-        analysis and software security.
+        I build software and backend services, work with data, and research
+        software security as part of my graduate studies in cybersecurity.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
