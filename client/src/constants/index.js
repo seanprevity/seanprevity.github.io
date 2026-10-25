@@ -61,46 +61,173 @@ const technologies = [
   {
     name: "Java",
     icon: java,
+    experience: [
+      {
+        context: "LeetCode / DSA practice",
+        detail:
+          "My go-to language for data structures and algorithms problems; the one I'm most fluent in for algorithmic work.",
+      },
+    ],
   },
   {
     name: "React JS",
     icon: reactjs,
+    experience: [
+      {
+        context: "Movie Recs",
+        detail:
+          "Next.js frontend with TanStack Query for filter search and similar-film recommendations.",
+      },
+      {
+        context: "European Football Stats",
+        detail:
+          "Client app for match, player, and team stats in a pnpm monorepo.",
+      },
+    ],
   },
   {
     name: "Node JS",
     icon: nodejs,
+    experience: [
+      {
+        context: "YouROK Internship",
+        detail:
+          "Rebuilt a legacy PHP backend as a Node.js/TypeScript GraphQL service.",
+      },
+      {
+        context: "European Football Stats",
+        detail:
+          "Modular Express backend with daily jobs pulling match data from ESPN.",
+      },
+      {
+        context: "Movie Recs",
+        detail: "TypeScript backend API serving a 10,000+ film catalog.",
+      },
+    ],
   },
   {
     name: "TypeScript",
     icon: typescript,
+    experience: [
+      {
+        context: "YouROK Internship",
+        detail: "Typed GraphQL service replacing a legacy PHP backend.",
+      },
+      {
+        context: "European Football Stats",
+        detail:
+          "Zod schemas and types shared between frontend and backend.",
+      },
+      {
+        context: "Movie Recs",
+        detail: "Full stack app written in TypeScript.",
+      },
+    ],
   },
   {
     name: "Docker",
     icon: docker,
+    experience: [
+      {
+        context: "YouROK Internship",
+        detail: "Containerized services with CI/CD pipelines on DigitalOcean.",
+      },
+    ],
   },
   {
     name: "Linux",
     icon: linux,
+    experience: [
+      {
+        context: "Self-hosted deployments",
+        detail:
+          "Configured EC2 servers for my projects, including a Caddy reverse proxy with HTTPS.",
+      },
+      {
+        context: "UCF network security project",
+        detail:
+          "Building a VPN/SSH tunneling test rig with tc netem network impairment.",
+      },
+    ],
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    experience: [
+      {
+        context: "Pegasus Parking",
+        detail:
+          "Used MongoDB and Mongoose to represent parking locations and coordinates.",
+      },
+    ],
   },
   {
     name: "PostgreSQL",
     icon: postgresql,
+    experience: [
+      {
+        context: "European Football Stats",
+        detail:
+          "Relational schema for seasons, matches, and player stats with Drizzle ORM.",
+      },
+      {
+        context: "Movie Recs",
+        detail: "Film catalog with director, actor, and keyword filtering.",
+      },
+    ],
   },
   {
     name: "Supabase",
     icon: supabase,
+    experience: [
+      {
+        context: "Movie Recs",
+        detail: "Hosted Postgres database for the film catalog.",
+      },
+      {
+        context: "European Football Stats",
+        detail: "Hosted Postgres DB for match stats, players, odds, etc.",
+      },
+      {
+        context: "France Travel Explorer",
+        detail: "Hosted Postgres DB for French cities and geolocation data.",
+      },
+    ],
   },
   {
     name: "GitHub Actions",
     icon: githubactions,
+    experience: [
+      {
+        context: "Movie Recs",
+        detail:
+          "Scheduled workflow that adds new releases to the catalog weekly.",
+      },
+      {
+        context: "European Football Stats",
+        detail:
+          "Scheduled daily workflow to update match statistics, standings, odds, etc.",
+      },
+    ],
   },
   {
     name: "AWS",
     icon: aws,
+    experience: [
+      {
+        context: "European Football Stats",
+        detail: "EC2 backend behind API Gateway inside a VPC.",
+      },
+      {
+        context: "Movie Recs",
+        detail: "Backend hosted on EC2 with Caddy for HTTPS.",
+      },
+      {
+        context: "UCF network security project",
+        detail:
+          "EC2 instances hosting a VPN/SSH tunneling performance test rig.",
+      },
+    ],
   },
 ];
 
