@@ -318,7 +318,7 @@ const projects = [
       },
     ],
     image: EPL,
-    repo: "https://github.com/seanprevity/EPL-Stats",
+    repo: "https://github.com/seanprevity/EU-Soccer",
     demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
   },
   {
