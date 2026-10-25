@@ -162,7 +162,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="block mt-2 text-jetLight text-[17px] font-bold font-beckman hover:text-battleGray transition-colors"
             >
-              European Football Stats →
+              European Football Stats
             </a>
             <p className="text-[#4a4a4a] text-[15px] mt-1">
               Premier League match and player stats, built with TypeScript,
