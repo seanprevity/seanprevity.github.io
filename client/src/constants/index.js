@@ -115,8 +115,7 @@ const technologies = [
       },
       {
         context: "European Football Stats",
-        detail:
-          "Zod schemas and types shared between frontend and backend.",
+        detail: "Zod schemas and types shared between frontend and backend.",
       },
       {
         context: "Movie Recs",
@@ -319,7 +318,8 @@ const projects = [
     ],
     image: EPL,
     repo: "https://github.com/seanprevity/EU-Soccer",
-    demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
+    demo: "https://eu-soccer-delta.vercel.app/",
+    // demo: "https://drive.google.com/file/d/1m46b7lAmF2CD6xWFxFJ_KoDSKos1FiV7/view?usp=sharing",
   },
   {
     id: "project-4",
