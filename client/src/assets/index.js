@@ -39,7 +39,7 @@ import pegpark from "./projects/PegasusParking.png";
 import soon from "./projects/soon.jpg";
 import babble from "./projects/babble.png";
 import francetravel from "./projects/francetravel.png";
-import EPL from "./projects/EPL2.png";
+import EPL from "./projects/EPL.png";
 import movierecs from "./projects/movie-recs.png";
 
 export {
