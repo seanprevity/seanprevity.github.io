@@ -236,7 +236,7 @@ const experiences = [
     company_name: "Outlier",
     icon: coverhunt,
     iconBg: "#333333",
-    date: "Apr 2025 - Dec 2025",
+    date: "Apr 2025 - Aug 2025",
   },
   {
     title: "Software Engineer Intern",
