@@ -232,13 +232,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "AI Tester (Freelance)",
-    company_name: "Outlier",
-    icon: coverhunt,
-    iconBg: "#333333",
-    date: "Apr 2025 - Aug 2025",
-  },
-  {
     title: "Software Engineer Intern",
     company_name: "YouROK",
     icon: yourok,
