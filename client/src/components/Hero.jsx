@@ -160,7 +160,7 @@ const Hero = () => {
               href={currentProjectUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="block mt-2 text-jetLight text-[17px] font-bold font-beckman hover:text-battleGray transition-colors"
+              className="block mt-2 text-jetLight text-[17px] font-bold font-beckman underline underline-offset-4 cursor-pointer hover:text-battleGray transition-colors"
             >
               European Football Stats
             </a>
@@ -171,9 +171,8 @@ const Hero = () => {
           </div>
 
           {/* Location + jump to the Contact section */}
-          <div className="mt-6 pt-5 border-t border-battleGray/30 flex items-center justify-between">
+          <div className="mt-3 pt-3 border-t border-battleGray/30 flex items-center justify-between">
             <div>
-              <p className={extraLabel}>Based in</p>
               <p className="text-jetLight text-[15px] font-semibold mt-1">
                 Orlando, FL
               </p>
