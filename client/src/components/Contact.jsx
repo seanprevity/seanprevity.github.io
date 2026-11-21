@@ -36,7 +36,7 @@ const Contact = () => {
           to_email: "seanprevity@gmail.com",
           message: form.message,
         },
-        "sIGr9an9NikG9ZBZF",
+        { publicKey: "sIGr9an9NikG9ZBZF" },
       )
       .then(
         () => {
