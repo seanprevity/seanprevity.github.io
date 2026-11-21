@@ -15,12 +15,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - uses: actions/checkout@v6
 
@@ -34,6 +30,10 @@ jobs:
         run: npm ci
         working-directory: ./client
 
+      - name: Lint
+        run: npm run lint
+        working-directory: ./client
+
       - name: Build Vite project
         run: npm run build
         working-directory: ./client
@@ -43,6 +43,13 @@ jobs:
         with:
           path: client/dist
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
