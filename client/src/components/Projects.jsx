@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { github, pineapple, pineappleHover } from "../assets";
