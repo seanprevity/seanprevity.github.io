@@ -7,7 +7,6 @@ import {
   docker,
   postgresql,
   pegpark,
-  coverhunt,
   francetravel,
   babble,
   yourok,
