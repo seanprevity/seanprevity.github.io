@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -48,10 +47,11 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
+        <a
+          href="/"
           className="flex items-center relative group py-1"
-          onClick={() => {
+          onClick={(e) => {
+            e.preventDefault();
             setActive("");
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
@@ -60,7 +60,7 @@ const Navbar = () => {
             Portfolio
           </span>
           <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-french transition-all duration-300 group-hover:w-full" />
-        </Link>
+        </a>
 
         {/* Desktop links */}
         <ul className="list-none hidden sm:flex flex-row gap-12">
