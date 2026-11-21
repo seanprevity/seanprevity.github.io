@@ -2,8 +2,7 @@ name: Deploy Vite Site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,26 +12,26 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     environment:
-      name: github-pages 
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
+          cache: npm
+          cache-dependency-path: client/package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: ./client
 
       - name: Build Vite project
@@ -40,9 +39,10 @@ jobs:
         working-directory: ./client
 
       - name: Upload dist folder
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: client/dist
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v5
