@@ -3,7 +3,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experiences } from "../constants";
@@ -100,7 +100,7 @@ const ResumeButton = () => {
       whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px]
       w-[125px] h-[46px] rounded-[10px] bg-jetLight
       sm:mt-[22px] mt-[16px] hover:bg-battleGray
-      hover:text-eerieBlack transition-colors duration-[0.2s]
+      hover:text-eerieBlack transition-colors duration-200
       ease-in-out"
       onClick={handleDownload}
       onMouseEnter={() => setHovered(true)}
@@ -122,10 +122,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
+        <p className={`${styles.sectionSubText} sm:pl-16 pl-8`}>
           What I've done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
+        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-8`}>
           Work Experience.
         </h2>
       </motion.div>

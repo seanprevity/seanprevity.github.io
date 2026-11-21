@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { close, menu } from "../assets";
@@ -48,10 +47,11 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
+        <a
+          href="/"
           className="flex items-center relative group py-1"
-          onClick={() => {
+          onClick={(e) => {
+            e.preventDefault();
             setActive("");
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
@@ -60,7 +60,7 @@ const Navbar = () => {
             Portfolio
           </span>
           <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-french transition-all duration-300 group-hover:w-full" />
-        </Link>
+        </a>
 
         {/* Desktop links */}
         <ul className="list-none hidden sm:flex flex-row gap-12">
@@ -80,7 +80,7 @@ const Navbar = () => {
                 >
                   {nav.title}
                   <span
-                    className={`absolute left-0 -bottom-[2px] h-[2px] bg-french transition-all duration-300 ${
+                    className={`absolute left-0 bottom-[-2px] h-[2px] bg-french transition-all duration-300 ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
                     }`}
                   />
@@ -126,7 +126,7 @@ const Navbar = () => {
               </button>
             </div>
 
-            <ul className="list-none flex flex-col items-start mt-[8rem] gap-2">
+            <ul className="list-none flex flex-col items-start mt-32 gap-2">
               {navLinks.map((nav, i) => (
                 <motion.li
                   key={nav.id}
