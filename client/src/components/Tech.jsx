@@ -32,7 +32,7 @@ const ExperiencePopover = ({ id, name, experience }) => (
 
     {/* Arrow pointing down at the card */}
     <span
-      className="absolute left-1/2 -bottom-[9px] -translate-x-1/2 w-4 h-4 rotate-45
+      className="absolute left-1/2 bottom-[-9px] -translate-x-1/2 w-4 h-4 rotate-45
                  bg-eerieBlack border-r-2 border-b-2 border-french"
     />
   </motion.div>
@@ -48,7 +48,7 @@ const TechCard = ({ name, icon, experience = [] }) => {
 
   return (
     <div
-      className="relative outline-none"
+      className="relative outline-hidden"
       tabIndex={hasExperience ? 0 : -1}
       aria-describedby={open && hasExperience ? popoverId : undefined}
       onMouseEnter={() => setOpen(true)}

@@ -21,7 +21,7 @@ const ProjectCard = ({
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
-        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
+        active === id ? "lg:flex-[3.5] flex-10" : "lg:flex-[0.5] flex-2"
       } flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`}
       onClick={() => handleClick(id)}
@@ -38,12 +38,12 @@ const ProjectCard = ({
       />
 
       {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
+        <div className="flex items-center justify-start pr-18">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
         [text-shadow:0_2px_6px_rgba(0,0,0,0.6)]
-        absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+        absolute z-0 lg:bottom-28 lg:-rotate-90 lg:origin-[0,0]
         leading-none z-20"
           >
             {name}
@@ -53,7 +53,7 @@ const ProjectCard = ({
         <>
           <div
             className="absolute bottom-0 px-8 pb-8 pt-20 justify-start w-full
-            flex-col bg-gradient-to-t from-black/85 via-black/60 to-transparent
+            flex-col bg-linear-to-t from-black/85 via-black/60 to-transparent
             rounded-b-[24px] z-20"
           >
             <div className="absolute inset-0 flex justify-end m-3">
@@ -73,7 +73,7 @@ const ProjectCard = ({
 
             <h2
               className="font-bold sm:text-[32px] text-[24px]
-              text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]
+              text-timberWolf uppercase font-beckman sm:mt-0 -mt-4
               [text-shadow:0_2px_6px_rgba(0,0,0,0.5)]"
             >
               {name}
@@ -92,7 +92,7 @@ const ProjectCard = ({
               whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
               w-[125px] h-[46px] rounded-[10px] glassmorphism 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
+              hover:text-eerieBlack transition duration-200 
               ease-in-out"
               onClick={() => window.open(demo, "_blank")}
               onMouseOver={() => {
@@ -125,7 +125,7 @@ const Projects = () => {
   const [active, setActive] = useState("project-3");
 
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-24">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>

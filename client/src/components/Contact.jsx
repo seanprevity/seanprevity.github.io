@@ -59,7 +59,7 @@ const Contact = () => {
 
   return (
     <div
-      className="-mt-[4rem] xl:flex-row flex-col-reverse 
+      className="-mt-16 xl:flex-row flex-col-reverse 
       flex gap-8 overflow-hidden"
     >
       <motion.div
@@ -90,7 +90,7 @@ const Contact = () => {
               placeholder="What's your name?"
               className="bg-eerieBlack py-3 px-4
               placeholder:text-taupe text-[14px]
-              text-timberWolf rounded-lg outline-none
+              text-timberWolf rounded-lg outline-hidden
               border-none font-medium"
             />
           </label>
@@ -106,7 +106,7 @@ const Contact = () => {
               placeholder="What's your email?"
               className="bg-eerieBlack py-3 px-4
               placeholder:text-taupe text-[14px]
-              text-timberWolf rounded-lg outline-none
+              text-timberWolf rounded-lg outline-hidden
               border-none font-medium"
             />
           </label>
@@ -122,7 +122,7 @@ const Contact = () => {
               placeholder="What's your message?"
               className="bg-eerieBlack py-3 px-4
               placeholder:text-taupe text-[14px]
-              text-timberWolf rounded-lg outline-none
+              text-timberWolf rounded-lg outline-hidden
               border-none font-medium resize-none"
             />
           </label>
@@ -135,7 +135,7 @@ const Contact = () => {
             whitespace-nowrap sm:w-[110px] sm:h-[40px] 
             w-[90px] h-[38px] rounded-[8px] bg-night 
             hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out mt-2"
+            transition duration-200 ease-in-out mt-2"
             onMouseOver={() => {
               document
                 .querySelector(".contact-btn")

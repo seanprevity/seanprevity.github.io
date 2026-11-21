@@ -80,7 +80,7 @@ const Navbar = () => {
                 >
                   {nav.title}
                   <span
-                    className={`absolute left-0 -bottom-[2px] h-[2px] bg-french transition-all duration-300 ${
+                    className={`absolute left-0 bottom-[-2px] h-[2px] bg-french transition-all duration-300 ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
                     }`}
                   />
@@ -126,7 +126,7 @@ const Navbar = () => {
               </button>
             </div>
 
-            <ul className="list-none flex flex-col items-start mt-[8rem] gap-2">
+            <ul className="list-none flex flex-col items-start mt-32 gap-2">
               {navLinks.map((nav, i) => (
                 <motion.li
                   key={nav.id}
